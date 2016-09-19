@@ -7,7 +7,7 @@ import * as products from '../data/items';
 import Heading from './heading';
 import Item from './item'
 
-const Cart = ({total, items}) => (
+const Cart = ({clear, total, items}) => (
   <div>
     <Heading>Cart</Heading>
     <a onClick={clear}>Clear all items</a>
@@ -37,4 +37,4 @@ export default connect((state) => {
       state.cart.items
     ),
   };
-})(Cart);
+}, {clear})(Cart);
