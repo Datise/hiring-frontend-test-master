@@ -11,7 +11,6 @@ export default handleActions({
     items: filter((item) => (
       item.id !== target
     ), state.items),
-    //items: filter(({id: !id}), state.items),
   }),
   [ADD_ITEM]: (state, {payload: id}) => ({
     ...state,
