@@ -23,7 +23,7 @@ export default handleActions({
     ...state,
     items: map(({id, ...rest}) => (
       target === id ? {id, ...rest, quantity} : {id, ...rest}
-    ), state.items),
+    ), state.items);
   }),
 }, {
   items: [],

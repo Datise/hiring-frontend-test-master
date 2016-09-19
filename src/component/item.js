@@ -3,7 +3,6 @@ import {connect} from 'react-redux';
 import * as products from '../data/items';
 import {setQuantity, remove} from '../action/cart';
 
-//const Item = connect(() => ({}), {setQuantity, remove})(({id, quantity, setQuantity, remove}) => {
 const Item = ({setQuantity, remove, id, quantity}) => {
   const {title, price} = products[id];
   const inc = () => setQuantity({id, quantity: quantity + 1});
