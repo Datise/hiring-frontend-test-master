@@ -10,7 +10,7 @@ import Item from './item'
 const Cart = ({clear, total, items}) => (
   <div>
     <Heading>Cart</Heading>
-    <a onClick={clear}>Clear all items</a>
+    <button onClick={clear}>Clear all items</button>
     <table>
       <thead>
         <tr>
