@@ -12,7 +12,7 @@ const Item = connect(() => ({}),{setQuantity, remove})
     <tr>
       <td>
         {title}
-        <img src={'assets/trashcan.png'} onClick={rem}/>
+        <img src={'/public/img/trashcan.png'} onClick={rem}/>
       </td>
       <td>
         {price}
