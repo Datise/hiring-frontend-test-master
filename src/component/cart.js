@@ -3,21 +3,22 @@ import map from 'lodash/fp/map';
 import reduce from 'lodash/fp/reduce';
 import {connect} from 'react-redux';
 
-import {clear, setQuantity} from '../action/cart';
+import {clear, setQuantity, remove} from '../action/cart';
 import * as products from '../data/items';
 import Heading from './heading';
 
 const Item = connect(
   () => ({}),
-  {setQuantity}
-)(({id, quantity, setQuantity}) => {
+  {setQuantity, remove}
+)(({id, quantity, setQuantity, remove}) => {
   const {title, price} = products[id];
   const inc = () => setQuantity({id, quantity: quantity + 1});
   const dec = () => setQuantity({id, quantity: quantity - 1});
+  const rem = () => remove({id});
   return (
     <tr>
       <td>
-        {title}
+        <a onClick={rem}>{title}</a>
       </td>
       <td>
         {price}
