@@ -18,7 +18,8 @@ const Item = connect(
   return (
     <tr>
       <td>
-        <a onClick={rem}>{title}</a>
+        {title}
+        <img src={'../public/trashcan.png'} onClick={rem}/>
       </td>
       <td>
         {price}
