@@ -13,16 +13,15 @@ const Cart = ({clear, total, items}) => {
     return ( 
       <div>
         <Heading><img className={styles.headingImage} src={'img/cart_icon.png'}/>Cart</Heading>
-        <h2>Your cart is empty</h2>
+        <h2>Your cart is empty.</h2>
       </div>
     )
   }else{
     return ( 
       <div>
-        <img className={styles.headingImage} src={'img/cart_icon.png'}/>
-        <Heading>Cart</Heading>
+        <Heading><img className={styles.headingImage} src={'img/cart_icon.png'}/>Cart</Heading>
         <button onClick={clear}>Clear all items</button>
-        <table>
+        <table className={styles.productTable} >
           <thead>
             <tr>
               <th>Product</th>
@@ -33,7 +32,7 @@ const Cart = ({clear, total, items}) => {
           </thead>
           <tbody>
             {map((item) => <Item {...item}/>, items)}
-            <tr><td colSpan={3}/><td>TOTAL: {total}</td></tr>
+            <tr><td colSpan={3}/><td>${total}</td></tr>
           </tbody>
         </table>
       </div>

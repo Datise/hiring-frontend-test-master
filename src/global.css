@@ -10,7 +10,6 @@
   body {
     min-height: 100%;
     color: #333333;
-    font-family: Verdana, Geneva, sans-serif;
   }
 
   /**
@@ -43,7 +42,7 @@
   figure, figcaption, footer, header, hgroup,
   menu, nav, output, ruby, section, summary,
   time, mark, audio, video {
-  	margin: 0;
+  	margin: 2px;
   	padding: 0;
   	border: 0;
   	font-size: 100%;
@@ -68,7 +67,7 @@
   }
   table {
   	border-collapse: collapse;
-  	border-spacing: 0;
+  	border-spacing: 5px;
   }
 
   /**
@@ -78,6 +77,8 @@
   body {
     line-height: 1.5;
     color: #333;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 28px;
   }
   a {
     text-decoration: none;
