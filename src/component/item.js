@@ -1,4 +1,4 @@
-import {createElement} from 'react';
+import {createElement, PropTypes} from 'react';
 import {connect} from 'react-redux';
 import * as products from '../data/items';
 import {removeItem, setQuantityOrRemove} from '../action/cart';
@@ -30,4 +30,10 @@ const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
   );
 };
 
+Item.propTypes = {
+  setQuantityOrRemove: PropTypes.func,
+  removeItem: PropTypes.func,
+  id: PropTypes.string,
+  quantity: PropTypes.number
+}
 export default connect(() => ({}), {setQuantityOrRemove, removeItem})(Item);

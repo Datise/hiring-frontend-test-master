@@ -1,4 +1,4 @@
-import {createElement} from 'react';
+import {createElement, PropTypes} from 'react';
 import map from 'lodash/fp/map';
 import reduce from 'lodash/fp/reduce';
 import {connect} from 'react-redux';
@@ -31,7 +31,7 @@ const Cart = ({clear, total, items}) => {
             </tr>
           </thead>
           <tbody>
-            {map((item) => <Item {...item}/>, items)}
+            {map((item) => <Item {...item} key={item.id}/>, items)}
             <tr><td colSpan={3}/><td>${total}</td></tr>
           </tbody>
         </table>
@@ -40,6 +40,11 @@ const Cart = ({clear, total, items}) => {
   }
 };
 
+Cart.propTypes = {
+  items: PropTypes.arrayOf(PropTypes.object),
+  clear: PropTypes.func,
+  total: PropTypes.number
+}
 export default connect((state) => {
   return {
     items: state.cart.items,

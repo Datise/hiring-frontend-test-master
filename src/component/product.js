@@ -1,4 +1,4 @@
-import {createElement} from 'react';
+import {createElement, PropTypes} from 'react';
 import {add} from '../action/cart';
 import {connect} from 'react-redux';
 import styles from './styles.css';
@@ -10,4 +10,10 @@ const Product = ({add, id, title, image}) => (
   </div>
 );
 
+Product.propTypes = {
+  add: PropTypes.func,
+  id: PropTypes.string,
+  title: PropTypes.string,
+  image: PropTypes.string
+}
 export default connect(() => ({}), {add})(Product);
