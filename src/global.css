@@ -9,7 +9,6 @@
   }
   body {
     min-height: 100%;
-    color: #333333;
   }
 
   /**
@@ -79,6 +78,7 @@
     color: #333;
     font-family: Verdana, Geneva, sans-serif;
     font-size: 28px;
+    color: #333333;
   }
   a {
     text-decoration: none;
