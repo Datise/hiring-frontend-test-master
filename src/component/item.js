@@ -2,6 +2,7 @@ import {createElement} from 'react';
 import {connect} from 'react-redux';
 import * as products from '../data/items';
 import {removeItem, setQuantityOrRemove} from '../action/cart';
+import styles from './styles.css';
 
 const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
   const {title, price} = products[id];
@@ -12,17 +13,18 @@ const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
     <tr>
       <td>
         {title}
-        <img src={'img/trashcan.png'} onClick={rem}/>
+        <img src={'img/remove_cart_item_icon.png'} onClick={rem} className={styles.removeItem} />
       </td>
       <td>
-        {price}
+        ${price}
       </td>
       <td>
+        <a className={styles.clickableIcon} onClick={inc}>+</a> 
         {quantity}
-        <a onClick={inc}>+</a> <a onClick={dec}>-</a>
+        <a className={styles.clickableIcon} onClick={dec}>-</a>
       </td>
       <td>
-        {price * quantity}
+        ${price * quantity}
       </td>
     </tr>
   );
