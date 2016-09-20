@@ -12,7 +12,7 @@ const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
     <tr>
       <td>
         {title}
-        <img src={'img/trashcan.png'} onClick={rem}/>
+        <img src={'img/remove_cart_item_icon.png'} onClick={rem} className='remove-item'/>
       </td>
       <td>
         {price}

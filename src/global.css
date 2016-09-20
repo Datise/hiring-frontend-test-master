@@ -9,6 +9,8 @@
   }
   body {
     min-height: 100%;
+    color: #333333;
+    font-family: Verdana, Geneva, sans-serif;
   }
 
   /**
@@ -81,3 +83,4 @@
     text-decoration: none;
   }
 }
+

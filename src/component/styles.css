@@ -1,13 +1,43 @@
 .product {
   display: inline-block;
+  width: 175px;
+  height: 215px;
+  border: 1px solid lightgrey;
+  position: relative;
+  margin-left: 40px;
 }
 
 .productImage {
-  width: 100px;
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
   display: block;
+  position: absolute;
+  margin: auto;
+  top: 15;
+  left: 15;
+
+}
+.productTitle {
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  text-align: center;
 }
 
 .heading {
-  font-size: 32px;
-  font-weight: bold;
+  padding-left: 8px;
+  font-size: 46px;
+  /*font-weight: lighter;*/
+  font-family: Verdana, Geneva, sans-serif;
+}
+.headingImage {
+  height: 50px;
+  width: 50px;
+  position: relative;
+  top: 10px;
+}
+.remove-item {
+  width: 20px;
+  height: 20px;
 }

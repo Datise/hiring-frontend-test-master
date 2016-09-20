@@ -6,31 +6,39 @@ import {clear} from '../action/cart';
 import * as products from '../data/items';
 import Heading from './heading';
 import Item from './item'
+import styles from './styles.css';
 
 const Cart = ({clear, total, items}) => {
   if (items.length === 0) {
-    return <h3>Your cart is empty</h3>;
+    return ( 
+      <div>
+        <Heading><img className={styles.headingImage} src={'img/cart_icon.png'}/>Cart</Heading>
+        <h2>Your cart is empty</h2>
+      </div>
+    )
+  }else{
+    return ( 
+      <div>
+        <img className={styles.headingImage} src={'img/cart_icon.png'}/>
+        <Heading>Cart</Heading>
+        <button onClick={clear}>Clear all items</button>
+        <table>
+          <thead>
+            <tr>
+              <th>Product</th>
+              <th>Price</th>
+              <th>Quantity</th>
+              <th>Total</th>
+            </tr>
+          </thead>
+          <tbody>
+            {map((item) => <Item {...item}/>, items)}
+            <tr><td colSpan={3}/><td>TOTAL: {total}</td></tr>
+          </tbody>
+        </table>
+      </div>
+    )
   }
-  return(
-    <div>
-      <Heading>Cart</Heading>
-      <button onClick={clear}>Clear all items</button>
-      <table>
-        <thead>
-          <tr>
-            <th>Product</th>
-            <th>Price</th>
-            <th>Quantity</th>
-            <th>Total</th>
-          </tr>
-        </thead>
-        <tbody>
-          {map((item) => <Item {...item}/>, items)}
-          <tr><td colSpan={3}/><td>TOTAL: {total}</td></tr>
-        </tbody>
-      </table>
-    </div>
-  )
 };
 
 export default connect((state) => {
