@@ -1,12 +1,12 @@
 import {createElement} from 'react';
 import {connect} from 'react-redux';
 import * as products from '../data/items';
-import {setQuantity, remove} from '../action/cart';
+import {remove, setQuantityOrRemove} from '../action/cart';
 
-const Item = ({setQuantity, remove, id, quantity}) => {
+const Item = ({setQuantityOrRemove, remove, id, quantity}) => {
   const {title, price} = products[id];
-  const inc = () => setQuantity({id, quantity: quantity + 1});
-  const dec = () => setQuantity({id, quantity: quantity - 1});
+  const inc = () => setQuantityOrRemove({id, quantity: quantity + 1});
+  const dec = () => setQuantityOrRemove({id, quantity: quantity - 1});
   const rem = () => remove({id});
   return (
     <tr>
@@ -28,4 +28,4 @@ const Item = ({setQuantity, remove, id, quantity}) => {
   );
 };
 
-export default connect(() => ({}), {setQuantity, remove})(Item);
+export default connect(() => ({}), {setQuantityOrRemove, remove})(Item);
