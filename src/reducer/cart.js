@@ -1,10 +1,17 @@
 import {handleActions} from 'redux-actions';
-import {CLEAR_ITEMS, ADD_ITEM, SET_QUANTITY} from 'action/types';
+import {CLEAR_ITEMS, ADD_ITEM, REMOVE_ITEM, SET_QUANTITY} from 'action/types';
 import map from 'lodash/fp/map';
+import filter from 'lodash/fp/filter';
 
 export default handleActions({
   [CLEAR_ITEMS]: () => ({
     items: [],
+  }),
+  [REMOVE_ITEM]: (state, {payload: {id: target}}) => ({
+    ...state,
+    items: filter((item) => (
+      item.id !== target
+    ), state.items),
   }),
   [ADD_ITEM]: (state, {payload: id}) => ({
     ...state,
