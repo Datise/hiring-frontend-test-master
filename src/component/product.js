@@ -14,6 +14,6 @@ Product.propTypes = {
   add: PropTypes.func,
   id: PropTypes.string,
   title: PropTypes.string,
-  image: PropTypes.string
-}
+  image: PropTypes.string,
+};
 export default connect(() => ({}), {add})(Product);
