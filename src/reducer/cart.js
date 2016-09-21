@@ -4,6 +4,9 @@ import map from 'lodash/fp/map';
 import filter from 'lodash/fp/filter'
 
 export default handleActions({
+  [VERIFY_REMOVAL]: () => ({
+    ...state
+  }),
   [CLEAR_ITEMS]: () => ({
     items: [],
   }),
