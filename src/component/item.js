@@ -24,7 +24,7 @@ const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
         <a className={styles.clickableIcon} onClick={dec}>-</a>
       </td>
       <td>
-        ${price * quantity}
+        ${(price * quantity).toFixed(2)}
       </td>
     </tr>
   );

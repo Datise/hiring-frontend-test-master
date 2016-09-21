@@ -53,10 +53,10 @@ Cart.propTypes = {
 export default connect((state) => {
   return {
     items: state.cart.items,
-    total: reduce(
+    total: +(reduce(
       (sum, {id, quantity}) => sum + products[id].price * quantity,
       0,
       state.cart.items
-    ),
+    ).toFixed(2)),
   };
 }, {clear})(Cart);
