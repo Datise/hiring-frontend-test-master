@@ -13,13 +13,13 @@ const Item = ({setQuantityOrRemove, removeItem, id, quantity}) => {
     <tr>
       <td>
         {title}
-        <img src={'img/remove_cart_item_icon.png'} onClick={rem} className={styles.removeItem} />
+        <img src={'img/remove_cart_item_icon.png'} onClick={rem} className={styles.removeItem}/>
       </td>
       <td>
         ${price}
       </td>
       <td>
-        <a className={styles.clickableIcon} onClick={inc}>+</a> 
+        <a className={styles.clickableIcon} onClick={inc}>+</a>
         {quantity}
         <a className={styles.clickableIcon} onClick={dec}>-</a>
       </td>
@@ -34,6 +34,6 @@ Item.propTypes = {
   setQuantityOrRemove: PropTypes.func,
   removeItem: PropTypes.func,
   id: PropTypes.string,
-  quantity: PropTypes.number
-}
+  quantity: PropTypes.number,
+};
 export default connect(() => ({}), {setQuantityOrRemove, removeItem})(Item);
