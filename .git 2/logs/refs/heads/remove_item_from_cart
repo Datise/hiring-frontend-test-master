@@ -1,0 +1,6 @@
+0000000000000000000000000000000000000000 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474309363 -0700	branch: Created from HEAD
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 75a19b7ff460c6e85724033c530c2d6fd7de2841 Datise <donald.ballard@hotmail.com> 1474316063 -0700	commit: hook up remove item action but it clears all items
+75a19b7ff460c6e85724033c530c2d6fd7de2841 069a894f4c7a16e3fb5054eeab4550f53949b079 Datise <donald.ballard@hotmail.com> 1474317101 -0700	commit: add trashcan image to project
+069a894f4c7a16e3fb5054eeab4550f53949b079 7af26fcff92fbfc539f78ee17b5726a5f02340d3 Datise <donald.ballard@hotmail.com> 1474317495 -0700	commit: extract item to its own file
+7af26fcff92fbfc539f78ee17b5726a5f02340d3 3bccb1fa1a1b0df425376593b9b538b299ac76c8 Datise <donald.ballard@hotmail.com> 1474321713 -0700	commit: remove item function written and working
+3bccb1fa1a1b0df425376593b9b538b299ac76c8 1343422ef4f8f8d2054bf01c5d975e7b235b92d2 Datise <donald.ballard@hotmail.com> 1474321737 -0700	commit: remove comment

@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474331815 -0700	branch: Created from HEAD
+ab5352ce3eac81f690130261577b41ba8cb6891f 4c7daf0d9c827dc21ebbde07f0cb8584290b91d3 Datise <donald.ballard@hotmail.com> 1474335521 -0700	commit: not sure if right approach, must consider
+4c7daf0d9c827dc21ebbde07f0cb8584290b91d3 23566ac515ddac355440b06ccbd748f2d2419dd0 Datise <donald.ballard@hotmail.com> 1474341702 -0700	commit: thunk action written to dispatch correct action when removing or setting quantity

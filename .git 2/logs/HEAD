@@ -1,0 +1,60 @@
+0000000000000000000000000000000000000000 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474308668 -0700	commit (initial): initial commit
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474308774 -0700	checkout: moving from master to development
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474308819 -0700	checkout: moving from development to add_item_to_cart_in_products
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474309348 -0700	checkout: moving from add_item_to_cart_in_products to development
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474309363 -0700	checkout: moving from development to remove_item_from_cart
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 75a19b7ff460c6e85724033c530c2d6fd7de2841 Datise <donald.ballard@hotmail.com> 1474316063 -0700	commit: hook up remove item action but it clears all items
+75a19b7ff460c6e85724033c530c2d6fd7de2841 069a894f4c7a16e3fb5054eeab4550f53949b079 Datise <donald.ballard@hotmail.com> 1474317101 -0700	commit: add trashcan image to project
+069a894f4c7a16e3fb5054eeab4550f53949b079 7af26fcff92fbfc539f78ee17b5726a5f02340d3 Datise <donald.ballard@hotmail.com> 1474317495 -0700	commit: extract item to its own file
+7af26fcff92fbfc539f78ee17b5726a5f02340d3 3bccb1fa1a1b0df425376593b9b538b299ac76c8 Datise <donald.ballard@hotmail.com> 1474321713 -0700	commit: remove item function written and working
+3bccb1fa1a1b0df425376593b9b538b299ac76c8 1343422ef4f8f8d2054bf01c5d975e7b235b92d2 Datise <donald.ballard@hotmail.com> 1474321737 -0700	commit: remove comment
+1343422ef4f8f8d2054bf01c5d975e7b235b92d2 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474322741 -0700	checkout: moving from remove_item_from_cart to development
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 56a41c618f7eee6872934da6c1c71d1a5eb8d158 Datise <donald.ballard@hotmail.com> 1474322748 -0700	merge remove_item_from_cart: Merge made by the 'recursive' strategy.
+56a41c618f7eee6872934da6c1c71d1a5eb8d158 56a41c618f7eee6872934da6c1c71d1a5eb8d158 Datise <donald.ballard@hotmail.com> 1474322757 -0700	checkout: moving from development to clear_all
+56a41c618f7eee6872934da6c1c71d1a5eb8d158 ba6368ab34d1a15caa6d091fb4eb5d807d647bfd Datise <donald.ballard@hotmail.com> 1474323305 -0700	commit: clear all button was missing function as variable
+ba6368ab34d1a15caa6d091fb4eb5d807d647bfd 271fc348e1acba7f5bb59aff0d3a46ea057531b5 Datise <donald.ballard@hotmail.com> 1474323356 -0700	commit: convert clear all to button for later styling
+271fc348e1acba7f5bb59aff0d3a46ea057531b5 56a41c618f7eee6872934da6c1c71d1a5eb8d158 Datise <donald.ballard@hotmail.com> 1474323359 -0700	checkout: moving from clear_all to development
+56a41c618f7eee6872934da6c1c71d1a5eb8d158 271fc348e1acba7f5bb59aff0d3a46ea057531b5 Datise <donald.ballard@hotmail.com> 1474323361 -0700	merge clear_all: Fast-forward
+271fc348e1acba7f5bb59aff0d3a46ea057531b5 c94eec5d568757fc1717b2b0d7134e4fcd126dc7 Datise <donald.ballard@hotmail.com> 1474324021 -0700	commit: only connect item component once, or rather connect the same way cart does for uniformity
+c94eec5d568757fc1717b2b0d7134e4fcd126dc7 c94eec5d568757fc1717b2b0d7134e4fcd126dc7 Datise <donald.ballard@hotmail.com> 1474324082 -0700	checkout: moving from development to linting
+c94eec5d568757fc1717b2b0d7134e4fcd126dc7 ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474324364 -0700	commit: most linting cleared, don't trust last two
+ab5352ce3eac81f690130261577b41ba8cb6891f c94eec5d568757fc1717b2b0d7134e4fcd126dc7 Datise <donald.ballard@hotmail.com> 1474324368 -0700	checkout: moving from linting to development
+c94eec5d568757fc1717b2b0d7134e4fcd126dc7 ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474324370 -0700	merge linting: Fast-forward
+ab5352ce3eac81f690130261577b41ba8cb6891f ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474331815 -0700	checkout: moving from development to remove_0_quantity_items
+ab5352ce3eac81f690130261577b41ba8cb6891f 4c7daf0d9c827dc21ebbde07f0cb8584290b91d3 Datise <donald.ballard@hotmail.com> 1474335521 -0700	commit: not sure if right approach, must consider
+4c7daf0d9c827dc21ebbde07f0cb8584290b91d3 23566ac515ddac355440b06ccbd748f2d2419dd0 Datise <donald.ballard@hotmail.com> 1474341702 -0700	commit: thunk action written to dispatch correct action when removing or setting quantity
+23566ac515ddac355440b06ccbd748f2d2419dd0 ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474341708 -0700	checkout: moving from remove_0_quantity_items to development
+ab5352ce3eac81f690130261577b41ba8cb6891f 84477add8712bd7e3f47efa7a541e49978e3a735 Datise <donald.ballard@hotmail.com> 1474341715 -0700	merge remove_0_quantity_items: Merge made by the 'recursive' strategy.
+84477add8712bd7e3f47efa7a541e49978e3a735 d9825bc40805f6f1c78faae89fefbcb6d8f2494f Datise <donald.ballard@hotmail.com> 1474342976 -0700	commit: Your cart is empty in cart.js
+d9825bc40805f6f1c78faae89fefbcb6d8f2494f d9825bc40805f6f1c78faae89fefbcb6d8f2494f Datise <donald.ballard@hotmail.com> 1474342982 -0700	checkout: moving from development to only_one_item
+d9825bc40805f6f1c78faae89fefbcb6d8f2494f 793eacd2380bd08bb035433dc2b129db7d777343 Datise <donald.ballard@hotmail.com> 1474347421 -0700	commit: click product picture multiple times increments item instead of adding two versions of the same item
+793eacd2380bd08bb035433dc2b129db7d777343 d9825bc40805f6f1c78faae89fefbcb6d8f2494f Datise <donald.ballard@hotmail.com> 1474347426 -0700	checkout: moving from only_one_item to development
+d9825bc40805f6f1c78faae89fefbcb6d8f2494f 26b990d76ef7aa6a1fd7ffff9d5ffc15ee502a23 Datise <donald.ballard@hotmail.com> 1474347441 -0700	merge only_one_item: Merge made by the 'recursive' strategy.
+26b990d76ef7aa6a1fd7ffff9d5ffc15ee502a23 5af26587cff3c14001999f85968559a92bd10f8d Datise <donald.ballard@hotmail.com> 1474347558 -0700	commit: get rid of ds store
+5af26587cff3c14001999f85968559a92bd10f8d e165d944faec9fd72f7baa994b3c911dda1c596f Datise <donald.ballard@hotmail.com> 1474347635 -0700	commit: remove trashcan from unnecessary place
+e165d944faec9fd72f7baa994b3c911dda1c596f e165d944faec9fd72f7baa994b3c911dda1c596f Datise <donald.ballard@hotmail.com> 1474396526 -0700	checkout: moving from development to styling
+e165d944faec9fd72f7baa994b3c911dda1c596f e165d944faec9fd72f7baa994b3c911dda1c596f Datise <donald.ballard@hotmail.com> 1474396532 -0700	checkout: moving from styling to development
+e165d944faec9fd72f7baa994b3c911dda1c596f 1361d3eabc3e2c509f21f35d1ae8153b26346eeb Datise <donald.ballard@hotmail.com> 1474396641 -0700	commit: linting improvements
+1361d3eabc3e2c509f21f35d1ae8153b26346eeb e165d944faec9fd72f7baa994b3c911dda1c596f Datise <donald.ballard@hotmail.com> 1474396653 -0700	checkout: moving from development to styling
+e165d944faec9fd72f7baa994b3c911dda1c596f cf98246bc1f7895aef8186402c27a898d3c80fc9 Datise <donald.ballard@hotmail.com> 1474403801 -0700	commit: product images mostly done, header mostly done, my css skills so rusty
+cf98246bc1f7895aef8186402c27a898d3c80fc9 dc5b5dca83a1024409383756c053a2d29368875c Datise <donald.ballard@hotmail.com> 1474411237 -0700	commit: styling matches quite closely, still don't which font is correct
+dc5b5dca83a1024409383756c053a2d29368875c 1361d3eabc3e2c509f21f35d1ae8153b26346eeb Datise <donald.ballard@hotmail.com> 1474411243 -0700	checkout: moving from styling to development
+1361d3eabc3e2c509f21f35d1ae8153b26346eeb 0f55267139955155ef16680a95d1846ba7785eb3 Datise <donald.ballard@hotmail.com> 1474411284 -0700	commit (merge): merge conflict over return statement in cart.js
+0f55267139955155ef16680a95d1846ba7785eb3 70bfb8f6d6c5c2556d43a6acbf53cdedad167b0f Datise <donald.ballard@hotmail.com> 1474411385 -0700	commit: global css font color in wrong place
+70bfb8f6d6c5c2556d43a6acbf53cdedad167b0f 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474413744 -0700	commit: add proptypes to components
+2536dcd58431323ea409e4280158f292f34a21a8 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474413758 -0700	checkout: moving from development to user_warning_stretch
+2536dcd58431323ea409e4280158f292f34a21a8 87a18109b80fc210632bc4f678ea5a223773b639 Datise <donald.ballard@hotmail.com> 1474424498 -0700	commit: a boilerplate action and some comments on possibility
+87a18109b80fc210632bc4f678ea5a223773b639 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474424503 -0700	checkout: moving from user_warning_stretch to development
+2536dcd58431323ea409e4280158f292f34a21a8 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474424525 -0700	checkout: moving from development to linting
+2536dcd58431323ea409e4280158f292f34a21a8 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474424538 -0700	checkout: moving from linting to development
+2536dcd58431323ea409e4280158f292f34a21a8 a858df7484684a45441d535d85213234c7313951 Datise <donald.ballard@hotmail.com> 1474424556 -0700	commit: some notes on a user warning and an empty ction
+a858df7484684a45441d535d85213234c7313951 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474424561 -0700	checkout: moving from development to linting
+2536dcd58431323ea409e4280158f292f34a21a8 99f899cc760b34192e7450ae58f5cf22cefc66d6 Datise <donald.ballard@hotmail.com> 1474425608 -0700	commit: linting satisfied minus line limits which I don't agree with in this context
+99f899cc760b34192e7450ae58f5cf22cefc66d6 a858df7484684a45441d535d85213234c7313951 Datise <donald.ballard@hotmail.com> 1474425616 -0700	checkout: moving from linting to development
+a858df7484684a45441d535d85213234c7313951 ca57b9749ebe94a0c6ffacece4c2d25aa32e2161 Datise <donald.ballard@hotmail.com> 1474425760 -0700	commit (merge): took wrong merge and failed linting
+ca57b9749ebe94a0c6ffacece4c2d25aa32e2161 73d2d9e9ea74455830df0fb9f2280b80ff0783c2 Datise <donald.ballard@hotmail.com> 1474429338 -0700	commit: refactor products to map function, add fixed maximum to total prices, all the notes
+73d2d9e9ea74455830df0fb9f2280b80ff0783c2 101aa0e80a5112b5e24ff1ec84dc691354bcf294 Datise <donald.ballard@hotmail.com> 1474429741 -0700	commit: to do list....finished?
+101aa0e80a5112b5e24ff1ec84dc691354bcf294 35e01de425fc96a286a5088174472a8c470125d5 Datise <donald.ballard@hotmail.com> 1474430299 -0700	commit: a bit of note editing, I'm calling it completed
+35e01de425fc96a286a5088174472a8c470125d5 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474430303 -0700	checkout: moving from development to master
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 877017a472a724a039ab43c439663b9bce1e8548 Datise <donald.ballard@hotmail.com> 1474430323 -0700	merge development: Merge made by the 'recursive' strategy.
+877017a472a724a039ab43c439663b9bce1e8548 339ff3697d38a0951da409d6f874f5439fb00e23 Datise <donald.ballard@hotmail.com> 1474430499 -0700	commit: pictures somehow stretched after merge but imgur is down at the moment so I'll try to fix later

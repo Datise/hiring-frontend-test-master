@@ -1,0 +1,2 @@
+0000000000000000000000000000000000000000 d9825bc40805f6f1c78faae89fefbcb6d8f2494f Datise <donald.ballard@hotmail.com> 1474342982 -0700	branch: Created from HEAD
+d9825bc40805f6f1c78faae89fefbcb6d8f2494f 793eacd2380bd08bb035433dc2b129db7d777343 Datise <donald.ballard@hotmail.com> 1474347421 -0700	commit: click product picture multiple times increments item instead of adding two versions of the same item

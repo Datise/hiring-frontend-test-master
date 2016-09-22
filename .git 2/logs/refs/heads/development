@@ -1,0 +1,19 @@
+0000000000000000000000000000000000000000 cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 Datise <donald.ballard@hotmail.com> 1474308774 -0700	branch: Created from HEAD
+cec5758fc1efa9d7e4b8ded90d135d1abc5ba2d2 56a41c618f7eee6872934da6c1c71d1a5eb8d158 Datise <donald.ballard@hotmail.com> 1474322748 -0700	merge remove_item_from_cart: Merge made by the 'recursive' strategy.
+56a41c618f7eee6872934da6c1c71d1a5eb8d158 271fc348e1acba7f5bb59aff0d3a46ea057531b5 Datise <donald.ballard@hotmail.com> 1474323361 -0700	merge clear_all: Fast-forward
+271fc348e1acba7f5bb59aff0d3a46ea057531b5 c94eec5d568757fc1717b2b0d7134e4fcd126dc7 Datise <donald.ballard@hotmail.com> 1474324021 -0700	commit: only connect item component once, or rather connect the same way cart does for uniformity
+c94eec5d568757fc1717b2b0d7134e4fcd126dc7 ab5352ce3eac81f690130261577b41ba8cb6891f Datise <donald.ballard@hotmail.com> 1474324370 -0700	merge linting: Fast-forward
+ab5352ce3eac81f690130261577b41ba8cb6891f 84477add8712bd7e3f47efa7a541e49978e3a735 Datise <donald.ballard@hotmail.com> 1474341715 -0700	merge remove_0_quantity_items: Merge made by the 'recursive' strategy.
+84477add8712bd7e3f47efa7a541e49978e3a735 d9825bc40805f6f1c78faae89fefbcb6d8f2494f Datise <donald.ballard@hotmail.com> 1474342976 -0700	commit: Your cart is empty in cart.js
+d9825bc40805f6f1c78faae89fefbcb6d8f2494f 26b990d76ef7aa6a1fd7ffff9d5ffc15ee502a23 Datise <donald.ballard@hotmail.com> 1474347441 -0700	merge only_one_item: Merge made by the 'recursive' strategy.
+26b990d76ef7aa6a1fd7ffff9d5ffc15ee502a23 5af26587cff3c14001999f85968559a92bd10f8d Datise <donald.ballard@hotmail.com> 1474347558 -0700	commit: get rid of ds store
+5af26587cff3c14001999f85968559a92bd10f8d e165d944faec9fd72f7baa994b3c911dda1c596f Datise <donald.ballard@hotmail.com> 1474347635 -0700	commit: remove trashcan from unnecessary place
+e165d944faec9fd72f7baa994b3c911dda1c596f 1361d3eabc3e2c509f21f35d1ae8153b26346eeb Datise <donald.ballard@hotmail.com> 1474396641 -0700	commit: linting improvements
+1361d3eabc3e2c509f21f35d1ae8153b26346eeb 0f55267139955155ef16680a95d1846ba7785eb3 Datise <donald.ballard@hotmail.com> 1474411284 -0700	commit (merge): merge conflict over return statement in cart.js
+0f55267139955155ef16680a95d1846ba7785eb3 70bfb8f6d6c5c2556d43a6acbf53cdedad167b0f Datise <donald.ballard@hotmail.com> 1474411385 -0700	commit: global css font color in wrong place
+70bfb8f6d6c5c2556d43a6acbf53cdedad167b0f 2536dcd58431323ea409e4280158f292f34a21a8 Datise <donald.ballard@hotmail.com> 1474413744 -0700	commit: add proptypes to components
+2536dcd58431323ea409e4280158f292f34a21a8 a858df7484684a45441d535d85213234c7313951 Datise <donald.ballard@hotmail.com> 1474424556 -0700	commit: some notes on a user warning and an empty ction
+a858df7484684a45441d535d85213234c7313951 ca57b9749ebe94a0c6ffacece4c2d25aa32e2161 Datise <donald.ballard@hotmail.com> 1474425760 -0700	commit (merge): took wrong merge and failed linting
+ca57b9749ebe94a0c6ffacece4c2d25aa32e2161 73d2d9e9ea74455830df0fb9f2280b80ff0783c2 Datise <donald.ballard@hotmail.com> 1474429338 -0700	commit: refactor products to map function, add fixed maximum to total prices, all the notes
+73d2d9e9ea74455830df0fb9f2280b80ff0783c2 101aa0e80a5112b5e24ff1ec84dc691354bcf294 Datise <donald.ballard@hotmail.com> 1474429741 -0700	commit: to do list....finished?
+101aa0e80a5112b5e24ff1ec84dc691354bcf294 35e01de425fc96a286a5088174472a8c470125d5 Datise <donald.ballard@hotmail.com> 1474430299 -0700	commit: a bit of note editing, I'm calling it completed

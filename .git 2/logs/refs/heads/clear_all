@@ -1,0 +1,3 @@
+0000000000000000000000000000000000000000 56a41c618f7eee6872934da6c1c71d1a5eb8d158 Datise <donald.ballard@hotmail.com> 1474322757 -0700	branch: Created from HEAD
+56a41c618f7eee6872934da6c1c71d1a5eb8d158 ba6368ab34d1a15caa6d091fb4eb5d807d647bfd Datise <donald.ballard@hotmail.com> 1474323305 -0700	commit: clear all button was missing function as variable
+ba6368ab34d1a15caa6d091fb4eb5d807d647bfd 271fc348e1acba7f5bb59aff0d3a46ea057531b5 Datise <donald.ballard@hotmail.com> 1474323356 -0700	commit: convert clear all to button for later styling
